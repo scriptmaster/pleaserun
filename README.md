@@ -1,5 +1,9 @@
-# Scriptmaster's version updates /lib/systemd/system/ instead of /etc/systemd/system/
-## TODO: Add a link to `/etc/systemd/system/multi-user.target.wants/`
+# scriptmaster's version
+ Scriptmaster's version installs to /lib/systemd/system/ instead of /etc/systemd/system/
+
+## TODO
+Add a symbolic link to `/etc/systemd/system/multi-user.target.wants/`
+`ln -s /etc/systemd/system/multi-user.target.wants/`
 
 # Please, Run!
 
