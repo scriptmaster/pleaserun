@@ -1,3 +1,6 @@
+# Scriptmaster's version updates /lib/systemd/system/ instead of /etc/systemd/system/
+## TODO: Add a link to `/etc/systemd/system/multi-user.target.wants/`
+
 # Please, Run!
 
 Pleaserun is a tool to generate startup scripts and service definitions. It targets
