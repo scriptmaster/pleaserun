@@ -6,7 +6,8 @@ require "pleaserun/platform/base"
 # If you use Fedora 18+ or CentOS/RHEL 7+, this is for you.
 class PleaseRun::Platform::Systemd < PleaseRun::Platform::Base
   attribute :unit_path, "The path to put systemd unit files",
-            :default => "/etc/systemd/system" do
+            :default => "/lib/systemd/system" do
+            # :default => "/etc/systemd/system" do
     validate do |path|
       insist { path }.is_a?(String)
     end
